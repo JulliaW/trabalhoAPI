@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "W1KlpjFa1Ip4mPdvjqBZYsrPKqoTpwtDA92xEM0vgy5zqAd2kzL/3YPdmOCkk/qPVCwoarcz5K7KUFA0I8Ig3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\trabalhoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Imendes_046\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Imendes_046\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Imendes_046\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Imendes_046\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
