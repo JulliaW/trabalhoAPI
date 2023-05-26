@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xnlvejZEp7tFW1Zt6ks1en7vUeLXlT19UapFy4R8hDE=",
+  "Hash": "n3EKsSluYgzZql6fgmBh9JqK9aHgGYYjSxnSGN4FNiY=",
   "Source": "trabalhoAPI",
   "BasePath": "_content/trabalhoAPI",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\wwwroot\\img\\Pulse-1s-200px.gif",
+      "SourceId": "trabalhoAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\wwwroot\\",
+      "BasePath": "_content/trabalhoAPI",
+      "RelativePath": "img/Pulse-1s-200px.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Pulse-1s-200px.gif"
     },
     {
       "Identity": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\wwwroot\\js\\site.js",

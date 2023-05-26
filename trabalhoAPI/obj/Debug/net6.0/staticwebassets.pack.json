@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\wwwroot\\img\\Pulse-1s-200px.gif",
+      "PackagePath": "staticwebassets\\img\\Pulse-1s-200px.gif"
+    },
+    {
       "Id": "C:\\Jullia\\Faculdade\\trabalhoAPI\\trabalhoAPI\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
