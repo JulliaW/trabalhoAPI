@@ -29,6 +29,7 @@
             <div class="form-group">
                 <label asp-for="Cpf" class="control-label"></label>
                 <input asp-for="Cpf" class="form-control" />
+                <input type="submit" value="Buscar" id="btnBuscar" class="btn btn-primary btn-sm" style="margin-top:-3px;" />
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -75,6 +76,9 @@
                 <input type="submit" value="Inserir" class="btn btn-primary btn-sm" />
                 <a class="btn btn-secondary text-white btn-sm" asp-action="Index">Voltar</a>
             </div>
+            <span id="loader" style="display:none;">
+                <img src="~/img/Pulse-1s-200px.gif" alt="Carregando..." class="img-fluid" style="width:30px;" />
+            </span>
         </form>
     </div>
 </div>
@@ -82,3 +86,13 @@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#form-cep").submit(function () {
+            $("#loader").show();
+            $("#btnBuscar").replaceWith(loader);
+        });
+    });
+</script>

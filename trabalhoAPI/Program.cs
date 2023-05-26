@@ -1,5 +1,6 @@
 using trabalhoAPI.Data;
 using Microsoft.EntityFrameworkCore;
+using trabalhoAPI.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DbCliente"));
 });
 builder.Services.AddControllersWithViews();
+
+//INJEÇÃO DE DEPENDÊNCIA
+builder.Services.AddHttpClient();
+builder.Services.AddSingleton<CorreiosService>();
 
 var app = builder.Build();
 
